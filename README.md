@@ -15,7 +15,7 @@ rigs and UVs are unchanged.
 | `robots/ue4-cyborg/` | [UE4 rig and Texture, Robot (cyborg Pack)](https://sketchfab.com/3d-models/ue4-rig-and-texture-robot-cyborg-pack-2e6aeadba1ad4092b0cd5a054aef00e9) | [Marcin.Kwiatkowski](https://sketchfab.com/Marcin.Kwiatkowski) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `robots/bot-blast-r325/` | [FREE CHARACTER BOT BLAST R-325 BY Oscar CREATIVO](https://sketchfab.com/3d-models/free-character-bot-blast-r-325-by-oscar-creativo-7c3843d203aa4044ae38f7a74645b345) | [OSCAR CREATIVO](https://sketchfab.com/oscar_creativo) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 
-**Modifications made for web streaming (maps and weapons):** meshes merged per material, textures downscaled (1024 px; large map atlases 2048 px; metal/roughness 512 px) and re-encoded as JPEG/PNG, specular extension removed, vertex colours stored as 8-bit. Desert City: a duplicated copy of the town and leftover editor objects (sky dome, checker planes, UI cards) removed. Geometry and UVs are otherwise unchanged.
+**Modifications made for web streaming (maps and weapons):** meshes merged per material, textures downscaled (1024 px; large map atlases 2048 px; metal/roughness 512 px) and re-encoded as JPEG/PNG, specular extension removed, vertex colours stored as 8-bit. Weapons: loose display parts lying beside the gun (pistol flashlight and bayonet, rifle scope and foregrip) removed. Desert City: a duplicated copy of the town and leftover editor objects (sky dome, checker planes, UI cards) removed. Geometry and UVs are otherwise unchanged.
 
 | Folder | Model | Author | License |
 |---|---|---|---|
