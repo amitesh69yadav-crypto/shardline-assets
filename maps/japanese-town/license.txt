@@ -1,0 +1,11 @@
+Model Information:
+* title:	Japanese Town
+* source:	https://sketchfab.com/3d-models/japanese-town-6f58f3bdef404321b8850aab870e110f
+* author:	Nazareno_rojas (https://sketchfab.com/Nazareno_rojas)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Japanese Town" (https://sketchfab.com/3d-models/japanese-town-6f58f3bdef404321b8850aab870e110f) by Nazareno_rojas (https://sketchfab.com/Nazareno_rojas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

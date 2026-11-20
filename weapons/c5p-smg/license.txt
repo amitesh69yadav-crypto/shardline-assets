@@ -1,0 +1,11 @@
+Model Information:
+* title:	C5-P Submachine Gun
+* source:	https://sketchfab.com/3d-models/c5-p-submachine-gun-784fcb36ecc14d1a85250a323c09229e
+* author:	Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "C5-P Submachine Gun" (https://sketchfab.com/3d-models/c5-p-submachine-gun-784fcb36ecc14d1a85250a323c09229e) by Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

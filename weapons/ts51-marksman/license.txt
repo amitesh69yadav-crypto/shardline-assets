@@ -1,0 +1,11 @@
+Model Information:
+* title:	TS51 Rifle
+* source:	https://sketchfab.com/3d-models/ts51-rifle-559c7ad3b0574a03b8e8a94cdad3ce1d
+* author:	Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "TS51 Rifle" (https://sketchfab.com/3d-models/ts51-rifle-559c7ad3b0574a03b8e8a94cdad3ce1d) by Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
