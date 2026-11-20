@@ -11,7 +11,6 @@ rigs and UVs are unchanged.
 
 | Folder | Model | Author | License |
 |---|---|---|---|
-| `robots/ninja-cyborg/` | [Ninja Cyborg](https://sketchfab.com/3d-models/ninja-cyborg-1673131f9e914d60af48d2dd51b85339) | [T-Art](https://sketchfab.com/person-x) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `robots/police-unit/` | [Robot Police Unit (animated)](https://sketchfab.com/3d-models/robot-police-unit-animated-36bc284bf5b84a6597db8f6db053c095) | [Jungle Jim](https://sketchfab.com/jungle_jim) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `robots/ue4-cyborg/` | [UE4 rig and Texture, Robot (cyborg Pack)](https://sketchfab.com/3d-models/ue4-rig-and-texture-robot-cyborg-pack-2e6aeadba1ad4092b0cd5a054aef00e9) | [Marcin.Kwiatkowski](https://sketchfab.com/Marcin.Kwiatkowski) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `robots/bot-blast-r325/` | [FREE CHARACTER BOT BLAST R-325 BY Oscar CREATIVO](https://sketchfab.com/3d-models/free-character-bot-blast-r-325-by-oscar-creativo-7c3843d203aa4044ae38f7a74645b345) | [OSCAR CREATIVO](https://sketchfab.com/oscar_creativo) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
