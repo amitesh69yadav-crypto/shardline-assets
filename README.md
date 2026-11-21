@@ -21,6 +21,7 @@ rigs and UVs are unchanged.
 |---|---|---|---|
 | `maps/japanese-town/` | [Japanese Town](https://sketchfab.com/3d-models/japanese-town-6f58f3bdef404321b8850aab870e110f) | [Nazareno_rojas](https://sketchfab.com/Nazareno_rojas) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `maps/desert-city/` | [Desert_City](https://sketchfab.com/3d-models/desert-city-765ade489c3f4636924307b133994d37) | [Mikey x pc](https://sketchfab.com/mikeyxpc) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
+| `maps/shardfall-harbor/` | Shardfall Harbor (original SHARDLINE map, modelled in Blender; generator script and .blend included) | SHARDLINE | Original |
 | `weapons/r7x-sniper/` | [R7-X Sniper](https://sketchfab.com/3d-models/r7-x-sniper-d6861fe22edf4b4884e87daa66d7deea) | [Bl4ckGh0st](https://sketchfab.com/Bl4ckGh0st) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `weapons/ts51-marksman/` | [TS51 Rifle](https://sketchfab.com/3d-models/ts51-rifle-559c7ad3b0574a03b8e8a94cdad3ce1d) | [Bl4ckGh0st](https://sketchfab.com/Bl4ckGh0st) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 | `weapons/vindicator-pistol/` | [VINDICATOR Tactical Pistol](https://sketchfab.com/3d-models/vindicator-tactical-pistol-c6c525644eca45eaaf5c023f4b848f55) | [Bl4ckGh0st](https://sketchfab.com/Bl4ckGh0st) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
