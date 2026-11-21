@@ -1,0 +1,173 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 67500,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18128,
+      "max": [
+        0.033888235688209534,
+        0.21958506107330322,
+        0.3998340368270874
+      ],
+      "min": [
+        -0.044193778187036514,
+        -0.24499200284481049,
+        -0.7772209644317627
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18128,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 18128,
+      "bufferView": 1,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 135000,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135000,
+      "byteLength": 580096,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "texture_pbr_20250901_normal",
+      "mimeType": "image/jpeg",
+      "uri": "textures/smg_0.jpg"
+    },
+    {
+      "name": "texture_pbr_20250901",
+      "mimeType": "image/jpeg",
+      "uri": "textures/smg_1.jpg"
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "mimeType": "image/jpeg",
+      "uri": "textures/smg_2.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 715096
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material.001",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "node_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node_0",
+      "mesh": 0
+    },
+    {
+      "name": "gun_smg",
+      "extras": {
+        "muzzle": [
+          0,
+          0.0807,
+          -0.7772
+        ],
+        "sight": [
+          0,
+          0.215,
+          -0.115
+        ]
+      },
+      "children": [
+        0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "convert",
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "scene": 0
+}

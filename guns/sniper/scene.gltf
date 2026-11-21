@@ -1,0 +1,173 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 67506,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18132,
+      "max": [
+        0.10267990082502365,
+        0.206525057554245,
+        0.31431499123573303
+      ],
+      "min": [
+        -0.10289912670850754,
+        -0.1947999894618988,
+        -0.8717820048332214
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18132,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 18132,
+      "bufferView": 1,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 135012,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135012,
+      "byteLength": 580224,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "texture_pbr_20250901_normal",
+      "mimeType": "image/jpeg",
+      "uri": "textures/sniper_0.jpg"
+    },
+    {
+      "name": "texture_pbr_20250901",
+      "mimeType": "image/jpeg",
+      "uri": "textures/sniper_1.jpg"
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "mimeType": "image/jpeg",
+      "uri": "textures/sniper_2.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 715236
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material.001",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "node_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node_0",
+      "mesh": 0
+    },
+    {
+      "name": "gun_sniper",
+      "extras": {
+        "muzzle": [
+          0,
+          0.0741,
+          -0.8718
+        ],
+        "sight": [
+          0,
+          0.205,
+          -0.16
+        ]
+      },
+      "children": [
+        0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "convert",
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "scene": 0
+}
