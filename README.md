@@ -30,3 +30,20 @@ rigs and UVs are unchanged.
 | `weapons/interceptor-rifle/` | [INTERCEPTOR Tactical Rifle](https://sketchfab.com/3d-models/interceptor-tactical-rifle-aca79e444d72453f8beb623317c5fdb2) | [Bl4ckGh0st](https://sketchfab.com/Bl4ckGh0st) | [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) |
 
 Each folder also contains the original `license.txt` exported by Sketchfab.
+
+## original/ — SHARDLINE's own assets
+
+Everything under original/ is original work made for SHARDLINE in Blender 5.3 by the generator
+scripts in the game repository (scripts/blender/), in one shared style kit:
+
+| Folder | Contents | Script |
+|---|---|---|
+| original/agents/ | KESTREL, BASTION, NOVA — sculpted anatomical agents on a Mixamo-named skeleton with fingers | gents.py |
+| original/weapons/ | six guns (rifle, SMG, shotgun, marksman, sniper, pistol), grip at origin, muzzle in extras | guns.py |
+| original/props/ | anchor shard, jammer, ammo / shield packs, grenade, casing, debris, dust, cable, animated recon drone | props.py |
+| original/kit/ | modular map kit: walls, floors, stairs, gates, arches, houses, industrial structures, crates | kitpieces.py |
+| original/textures/ | painted seamless PBR library (albedo / OpenGL normal / roughness) shared by every model | 	extures.py |
+| original/skies/ | stylised equirectangular HDR skies (Cycles) | sky.py |
+| original/vfx/ | particle sprites, flipbook sheets (smoke, fire, flame blast), distortion noise | fx.py |
+
+Models reference the shared library as ../../textures/<set>_<map>.jpg.
