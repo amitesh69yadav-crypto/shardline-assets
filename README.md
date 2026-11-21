@@ -47,3 +47,15 @@ scripts in the game repository (scripts/blender/), in one shared style kit:
 | original/vfx/ | particle sprites, flipbook sheets (smoke, fire, flame blast), distortion noise | fx.py |
 
 Models reference the shared library as ../../textures/<set>_<map>.jpg.
+
+## `mixamo/` — Mixamo characters and animations (Adobe)
+
+Characters and animations from [Mixamo](https://www.mixamo.com) (Adobe), exported by the game's owner and used
+under Mixamo's terms inside the SHARDLINE game; they are web-converted copies (glTF, textures reduced to 1024 px)
+for streaming into the game, not a standalone asset pack.
+
+| Folder | Contents |
+|---|---|
+| `mixamo/characters/` | Vanguard by T. Choonyung, Vampire A Lusth, Paladin J Nordstrom, Swat Guy, Knight D Pelegrini, Steve, Pete (T-pose, skinned) |
+| `mixamo/animations/` | rifle locomotion (idle, 8-way walk / run / crouch, sprint), jump up / loop / down, running slide, falling idle, reloading, firing rifle, hit reaction, deaths |
+| `mixamo/xbot.fbx` | X Bot: the retarget source skeleton the animations were exported on |
