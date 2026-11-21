@@ -431,9 +431,10 @@ def half(sx):
         lamp(X(-48), 32.6) if a == -56 else None
 
     # --- Block row between the market street and the plaza: z∈[12,24]
-    building(*xr(-58, -38), 12, 24, 2, 'teal', roof='flat', shutter='terracotta', gap=('e' if sx < 0 else 'w', 20.6, 23.6))
-    ax0, ax1 = xr(-38, -36.4)
-    stairs(ax0, 13, ax1, 23, 0, 6.8, 'z', 'stone')                               # roof access in the north alley
+    outer = 'w' if sx < 0 else 'e'  # the wall facing the spawn courtyard
+    building(*xr(-58, -38), 12, 24, 2, 'teal', roof='flat', shutter='terracotta', gap=(outer, 20.6, 23.6), skip_sides=(outer,))
+    ax0, ax1 = xr(-60.4, -58)
+    stairs(ax0, 13, ax1, 23, 0, 6.8, 'z', 'stone')                               # roof access from the spawn courtyard
     railing(X(-36.4), 13, X(-36.4), 23, 0.0, 1.0) if False else None
     building(*xr(-34, -12), 12, 24, 3, 'terracotta', roof='gable', shutter='teal')
     # Customs house (centre, spans the mirror axis): archway passage x∈[-4,4]
@@ -484,9 +485,9 @@ def half(sx):
         planter(X(-27.5), zc + (2.2 if zc > 0 else -2.2), 1.8, 1.8, False) if False else None
 
     # --- South block row: z∈[-22,-12]
-    building(*xr(-58, -38), -22, -12, 2, 'ochre', roof='flat', shutter='teal', gap=('e' if sx < 0 else 'w', -21.6, -18.6))
-    ax0, ax1 = xr(-38, -36.4)
-    stairs(ax0, -21, ax1, -13, 0, 6.8, '-z', 'stone')                            # roof access in the south alley
+    building(*xr(-58, -38), -22, -12, 2, 'ochre', roof='flat', shutter='teal', gap=(outer, -21.6, -18.6), skip_sides=(outer,))
+    ax0, ax1 = xr(-60.4, -58)
+    stairs(ax0, -21, ax1, -13, 0, 6.8, '-z', 'stone')                            # roof access from the spawn courtyard
     building(*xr(-34, -6), -22, -12, 2, 'sand', roof='gable', shutter='teal', skip_sides=())
     # Shop awnings on the quay side
     for i in range(4):
