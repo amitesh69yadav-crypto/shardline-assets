@@ -431,7 +431,7 @@ def half(sx):
         lamp(X(-48), 32.6) if a == -56 else None
 
     # --- Block row between the market street and the plaza: z∈[12,24]
-    outer = 'w' if sx < 0 else 'e'  # the wall facing the spawn courtyard
+    outer = 'w' if sx > 0 else 'e'  # sx = +1 is the -X half: its courtyard is to the west
     building(*xr(-58, -38), 12, 24, 2, 'teal', roof='flat', shutter='terracotta', gap=(outer, 20.6, 23.6), skip_sides=(outer,))
     ax0, ax1 = xr(-60.4, -58)
     stairs(ax0, 13, ax1, 23, 0, 6.8, 'z', 'stone')                               # roof access from the spawn courtyard
@@ -477,7 +477,7 @@ def half(sx):
         box((tx0 + tx1) / 2, 0, zc, tx1 - tx0, 2.5, 7, 'stone', P['stone'], bevel=0.08)
         box((tx0 + tx1) / 2, 2.5, zc, tx1 - tx0, 0.05, 7, 'tiles', P['white'], mode='flat')
         sx0, sx1 = xr(-22, -18.25)
-        stairs(sx0, zc - 2.5, sx1, zc + 2.5, 0, 2.5, '-x' if sx < 0 else 'x')
+        stairs(sx0, zc - 2.5, sx1, zc + 2.5, 0, 2.5, '-x' if sx > 0 else 'x')
         # balustrade along the plaza edge except the stairs and along the passage side
         edge_z = 5.0 if zc > 0 else -5.0
         box((tx0 + tx1) / 2, 2.5, edge_z + (0.2 if zc > 0 else -0.2), tx1 - tx0, 1.0, 0.4, 'stone', P['stone'], bevel=0.05)
